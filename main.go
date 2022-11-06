@@ -16,7 +16,7 @@ import (
 func main() {
 	isSeed := flag.Bool("with-seed", true, "with seed its much slower")
 	threads := flag.Uint64("threads", 100, "parallel threads")
-	suffix := flag.String("suffix", "Shax", "desired contract suffix, required")
+	suffix := flag.String("suffix", "Shaxa", "desired contract suffix, required")
 	version := flag.String("wallet", "v4", "v3 or v4")
 	flag.Parse()
 
